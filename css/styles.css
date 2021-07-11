@@ -30,7 +30,7 @@ h1, h2, h3{
 	margin-bottom:.4rem;
 	margin-right: auto;
 	margin-left: auto;
-	color:#f3d0ee;
+	color:#963e74;
 	line-height:2rem;
 	width:100%;
 }
@@ -105,11 +105,11 @@ h1, h2,  h3,  p,  a {
 .nav ul li,
 .nav ul li a {
 	display:block;
-	background-color:#e8aade;
+	background-color:#ffeeff;
 	margin-right: auto;
 	margin-left: auto;
 	text-decoration: none;
-	color: #ffeeff;
+	color: #ffffff;
 	line-height: 4rem;
 	border-bottom:1px solid #f3d0ee;
 }
@@ -118,7 +118,7 @@ h1, h2,  h3,  p,  a {
 	transition-duration: 0.5s;
 }
 .current {
-	color: #441c34 !important;
+	color: #963e74 !important;
 }
 .icons li, .icons a, .icons img {
 	display: none;
@@ -288,18 +288,20 @@ figcaption p {
 	font-size: 1.6em;
 }
 .order-btn {
-	background-color: #282824;
-	color: #f4f4f4;
-	padding: 1rem 4rem;
+	margin: 0 auto;
+	background-color: #8bc9d1;
+	color: #ffffff;
+	padding: 1rem 3rem;
 	display: block;	
 	text-decoration: none;
-	border: 2px solid #282824;
+	border-radius: 8px;
 	font-size: 1.2em;
 	margin-top: 1rem !important;
 	line-height: 1.2;
+	max-width: 300px;
 }
 .order-btn:hover {
-	opacity: 83%;
+	opacity: 80%;
 	transition-duration: 0.7S;
 	cursor: pointer;
 }
@@ -407,10 +409,9 @@ footer p {
     margin:0 auto;
     border-radius: 100%;
  }
-.slots-closed {
-	display: none;
+.order-banner {
+	padding: 3em 0;
 }
-
 /* Responsive */
 @media only screen and (min-width: 1350px) {
 	.hr-bar div:nth-child(1) {
@@ -543,7 +544,8 @@ footer p {
 	.nav ul li a {
 		border:none;
 		font-size:1.2rem;
-		color:#a9a9a9;
+		background-color: #f3d0ee;
+		line-height: 2em;
 	}
 	.nav-col-left  li,
 	.nav ul li a {
@@ -594,7 +596,7 @@ footer p {
 		margin-right:auto;
 	}
 	.home-banner img {
-		width:80%;
+		width:40%;
 	}
 	.hr-bar {
 		padding:3rem 6rem; 
@@ -614,6 +616,9 @@ footer p {
 	}
 	.col .btn {
 		margin-top:1.2rem;
+	}
+	.extras {
+		background-color: #f3d0ee !important;
 	}
 	.col-order {
 		width: 80%;
@@ -641,7 +646,7 @@ footer p {
 		font-style: italic;
 	}
 	.order-btn {
-		max-width: 325px !important;
+		max-width: 320px !important;
 		margin: 0 auto;
 	}
 	.info-card {
@@ -676,7 +681,7 @@ footer p {
 		flex-direction: column;
 	}
 	.design-banner {
-		height: 250px;
+		height: 175px;
 	}
 	.profile-img {
 		height:33%;
